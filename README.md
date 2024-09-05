@@ -10,7 +10,7 @@
 ### Goal
 
 This python bot can reserve concert tickets in kktix website using Splinter. The bot would start two minutes before the scheduled time. It log in to the home page automatically. When the website starts selling tickets, the bot would refresh the webpage and automatically fills in registration details. The bot not only refresh webpage faster than any human, but also is able to avoid any mistakes or delays.
-
+ 
 ### Execution
 
 To book tickets in kktix, you need to fill your account and concert information in `cofig.yml` beforehead. Or, you  can update these arguments with `script/updateConfig.py`, which is an interative program. Here is the script for booking concert tickets in kktix.
